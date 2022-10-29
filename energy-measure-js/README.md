@@ -44,23 +44,24 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
 
+This project is focused on the execution and no unit test was added. However, the functional test can be done by controller. 
+ 
 ```bash
-# unit tests
-$ npm run test
+GET localhost:3000/binarytrees
 
-# e2e tests
-$ npm run test:e2e
+GET localhost:3000/fasta
 
-# test coverage
-$ npm run test:cov
+GET localhost:3000/knucleotide
+
+GET localhost:3000/regex-redux
 ```
+The default values are declared explicit in the code. One of them is the pid, the identifier of the process to be monitored.
+For example, for my local test I run it by Intelij. So, I got that pid and set manually in the code. 
+
 
 ## Support
 
