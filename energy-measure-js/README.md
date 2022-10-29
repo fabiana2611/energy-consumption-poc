@@ -26,6 +26,10 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+This code has as inspiration the work that compares the energy efficiency of 28 languages, [Energy Efficiency in Programming Languages](https://github.com/greensoftwarelab/Energy-Languages). The code is adapted to use NestJS and to measure the energy for MACOS.
+
+The explanation about this work you can see here: [Energy Efficiency attention points to development](https://fabiana2611.github.io/beyond/patterns-energy-and-measure)
+
 ## Installation
 
 ```bash
